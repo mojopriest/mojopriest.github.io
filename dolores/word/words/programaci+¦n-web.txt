@@ -1,0 +1,22 @@
+# alphabet: abcdefghijklmnopqrstuvwxyz
+# size: 20
+# hint: 1
+# showDescriptions: 1
+# totalWords: 15
+# initialScore: 1000
+# every: 10
+# puzzleDescription: Encuentra+diferentes+herramientas%2C+lenguajes+de+programaci%C3%B3n%2C+programas+y+librer%C3%ADas+relacionadas+con+la+programaci%C3%B3n+web.
+# name: Programación web
+html | HyperText Markup Language (HTML) is the main markup language for displaying web pages
+php | PHP is an open source server-side scripting language designed for Web development to produce dynamic Web pages
+mysql | MySQL is the world's most used open source relational database management system (RDBMS)
+javascript | JavaScript is a scripting language commonly implemented as part of a web browser in order to create enhanced user interfaces and dynamic websites
+canvas | The canvas element is part of HTML5 and allows for dynamic, scriptable rendering of 2D shapes and bitmap images.
+python | Python is a general-purpose, interpreted high-level programming language whose design philosophy emphasizes code readability.
+jquery | jQuery is a multi-browser JavaScript library designed to simplify the client-side scripting of HTML.
+firefox | Mozilla Firefox is a free and open source web browser developed for Microsoft Windows, OS X, and Linux, coordinated by Mozilla Corporation and Mozilla Foundation
+css | Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation semantics (the look and formatting) of a document written in a markup language
+django | Django is an open source web application framework, written in Python, which follows the model, view, controller architectural pattern
+github | GitHub is a web-based hosting service for software development projects that use the Git revision control system. GitHub offers both paid plans for private repositories, and free accounts for open source projects
+chrome | Google Chrome is a freeware web browser developed by Google that uses the WebKit layout engine
+opera | Opera is a web browser and Internet suite developed by Opera Software with over 270 million users worldwide

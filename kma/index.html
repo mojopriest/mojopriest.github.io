@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+     <head>
+     <title>Etusivu</title>
+     <meta charset="utf-8">
+     <meta name = "format-detection" content = "telephone=no" />
+     <link rel="icon" href="images/favicon.ico">
+     <link rel="shortcut icon" href="images/favicon.ico" />
+     <link rel="stylesheet" href="css/owl.carousel.css">
+     <link rel="stylesheet" href="css/jplayer.gray.skin.css">
+     <link rel="stylesheet" href="css/jquery.fancybox-1.3.4.css">    
+     <link rel="stylesheet" href="css/style.css">
+     <script src="js/jquery.js"></script>
+     <script src="js/jquery-migrate-1.1.1.js"></script>
+     <script src="js/jquery.mobilemenu.js"></script>
+     <script src="js/script.js"></script> 
+     
+     <script src="js/superfish.js"></script>
+     <script src="js/jquery.ui.totop.js"></script>
+     <script src="js/jquery.equalheights.js"></script>
+     <script src="js/jquery.easing.1.3.js"></script>       
+     <script src="js/owl.carousel.js"></script>
+     <script src="js/jquery.fancybox-1.3.4.js"></script>
+    <script src="js/audioPlayer.js"></script>
+
+     <script>
+
+
+    $(document).ready(function() {
+     
+    var owl = $("#owl");
+     
+    owl.owlCarousel({
+    items : 3, //10 items above 1000px browser width
+    itemsDesktop : [995,4], //5 items between 1000px and 901px
+    itemsDesktopSmall : [767, 2], // betweem 900px and 601px
+    itemsTablet: [700, 2], //2 items between 600 and 0
+    itemsMobile : [479, 1], // itemsMobile disabled - inherit from itemsTablet option
+    navigation : true,
+    });
+    });
+ 
+    
+    $(document).ready(function(){
+      $().UItoTop({ easingType: 'easeOutQuart' });
+      $("a.various").fancybox();
+    });   
+    
+    $(window).load(function(){
+    
+    $("#audioPlayer").audioPlayer();
+    
+    });
+     </script>
+     <!--[if lt IE 8]>
+       <div style=' clear: both; text-align:center; position: relative;'>
+         <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+           <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+         </a>
+      </div>
+    <![endif]-->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <link rel="stylesheet" media="screen" href="css/ie.css">
+
+
+    <![endif]-->
+	
+<script type="text/javascript" src="http://stratus.sc/stratus.js"></script>
+	
+	<script type="text/javascript">
+$(document).ready(function(){
+$.stratus({
+links: 'https://soundcloud.com/jarirealestate/sets/kma-app', random:false, stats:false, color:'red'
+});
+});
+</script>
+     </head>
+<!--==============================header=================================-->
+
+     <body class="page1" id="top">
+     <header>
+     <div class="menu_block">
+      <div class="container_12">
+        <div class="grid_12">
+        <nav class="horizontal-nav full-width horizontalNav-notprocessed">
+            <ul class="sf-menu">
+                  <li><a href="index.html">Etusivu</a></li>
+                   <li><a href="kirja_kirjailija.html">Kirja</a></li>
+                   <li><a href="taustaa.html">Taustaa</a></li>
+                   <li><a href="videot.html">Videot</a></li>
+                   <li><a href="yhteys.html">Yhteys</a></li>
+                 </ul>
+          </nav>
+              
+            <div class="clear"></div>
+  </div>
+  </div>
+      </div>
+	    
+	 
+	 <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-46239074-1', 'kuolleenmiehenasento.fi');
+  ga('send', 'pageview');
+
+</script>
+	 
+	  
+       
+           <div class="container_12">
+   <div class="grid_12">
+    <h1>
+      <a href="index.html">
+        <img src="images/new_logo.png" alt="">
+      </a>
+    </h1>
+    
+  </div>
+</div>
+
+</header>
+<div class="play_block">
+  <div class="container_12">
+    <div class="grid_12">
+      <!--[if lt IE 9]> <span>  online listening does not support in your browser</span> <![endif]-->
+      <span class="ienone">KUUNTELE ESITTELY:</span>
+      <div id="audioPlayer">
+              <div class="controls">
+              <a href="#" id="prevSound"><span></span></a>
+              <a href="#" id="playSound"><span></span></a>
+              <a href="#" id="nextSound"><span></span></a></div>
+              <div id="progressBar">
+                <div id="timeBar">
+                  <div id="timeLine"></div>
+                  <div id="tracerLine"></div>
+                </div>
+                <div id="volumeInd"><div id="volume"></div></div>
+                
+              </div>
+              <ul>
+                <li><a href="audio/sound_1"></a></li>
+                <li><a href="audio/sound_2"></a></li>
+                <li><a href="audio/sound_3"></a></li>
+                <li><a href="audio/sound_4"></a></li>
+				
+              </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!--==============================Content=================================-->
+
+<div class="content">
+  <div class="container_12">
+    <div class="grid_4">
+      <h3>Ilotulitus päättyy. Jäljelle jää huuto.</h3>
+      <p class="p1">Loppiaisen vieton huipentavan ilotulituksen raketit avautuvat  pakkasyön kirkastamalla taivaalla kuin suuret kukat.<strong> Lauri Enttala</strong> katselee metsässä ilotulitusta nelivuotiaan tyttärensä kanssa, mutta he eivät ole yksin. </p>
+      <strong>Kuolleen miehen asento on jännitysromaani, joka on lukijalleen matkalippu toiseen maailmaan.</strong>
+    </div>
+    <div class="grid_4">
+      <div class="links">
+      <a href="#" class="maxheight"><img src="images/ghost_size_fit.jpg"</a>
+      <a href="#" class="maxheight"><img src="images/works_size_fit.jpg"</a>
+      <a href="#" class="maxheight"><img src="images/snow_size_fit.jpg"</a>
+      <a href="kirja_kirjailija.html" class="maxheight"><span>LUE LISÄÄ KIRJASTA</span></a></div>
+   
+    
+	  
+     
+    </div>
+     <div class="grid_3 prefix_1">
+      <div class="banner">
+        <div class="title">Jari Peltola</div>
+        Kuolleen miehen asento
+        <span>Myllylahti</span>
+        <div class="upp">Nyt saatavana Kirjakaupoista </div>
+        <div align="center"><a href="kirja_kirjailija.html" target="_parent">lue lisÄÄ kUOLLEEN MIEHEN ASENNOSTA </a>          </div>
+      </div>
+      
+    </div>
+  </div>
+</div>
+<div class="bottom_block">
+  <div class="container_12">
+    <div class="grid_9">
+      <div id="owl">
+	  
+	  
+	  <div class="item">
+          <time datetime="2013-01-01"><span>16.12.</span></time>
+          <div class="text1">Vene</div>
+          Tämän joulun kauhunovelli on <strong>Vene</strong>. Voit lukea sen <a href="https://t.co/egeLrFFy0G" target="_blank"><strong>tästä</strong></a>.</div>
+	  
+	  
+	  <div class="item">
+          <time datetime="2013-01-01"><span>15.12.</span></time>
+          <div class="text1">Dolores</div>
+          <strong>Kuolleen miehen asennon </strong>seuraajan nimi on <strong>Doloresin huuto</strong>. </div>
+	  
+	  
+	   <div class="item">
+          <time datetime="2013-01-01"><span>19.9.</span></time>
+          <div class="text1">Seuraaja</div>
+          <strong>Kuolleen miehen asennon </strong>seuraajan nimi paljastetaan pian tällä sivustolla. </div>
+		  
+	  
+	   <div class="item">
+          <time datetime="2013-01-01"><span>29.8.</span></time>
+          <div class="text1">Facebook</div>
+          <strong>Kuolleen miehen asennon </strong>Facebook-yhteisösivulle pääset klikkaamalla <a href="https://www.facebook.com/pages/Kuolleen-miehen-asento/1507187646165393" target="_blank"><strong>tästä</strong></a>. </div>
+		  
+	  
+	  <div class="item">
+          <time datetime="2013-01-01"><span>8.7.</span></time>
+          <div class="text1">Soundtrack</div>
+          <strong>Kuolleen miehen asennon </strong>soundtrack on kokonaisuudessaan kuunneltavissa <a href="https://soundcloud.com/jarirealestate/sets/kma-app" target="_blank"><strong>tästä linkistä</strong></a>. </div>
+		  
+	  
+	   <div class="item">
+          <time datetime="2013-01-01"><span>22.6.</span></time>
+          <div class="text1">Taina</div>
+          <strong>Kuolleen miehen asennon </strong>app-sovelluksesta löytyy nyt aiemmin julkaisematon teksti, missä Taina Laaksonen esiintyy ensimmäistä kertaa. </div>
+	  
+	 
+	   <div class="item">
+          <time datetime="2013-01-01"><span>4.6.</span></time>
+          <div class="text1">Booktrack</div>
+          <strong>Kuolleen miehen asennon </strong>Booktrack-näyteluku on saatavilla kuvakevalikossa. Näyteluku toimii kaikissa tietokoneissa. </div>
+	  
+	  
+	   <div class="item">
+          <time datetime="2013-01-01"><span>25.5.</span></time>
+          <div class="text1">Venäjä</div>
+          <strong>Kuolleen miehen asennon </strong>tuorein audioblogi Venäjä on kuunneltavissa sekä app-sovelluksessa että tämän sivun alalaidan Soundcloud-soittimessa. </div>
+	  
+	  
+	  <div class="item">
+          <time datetime="2013-01-01"><span>16.5.</span></time>
+          <div class="text1">iOS App</div>
+          <strong>Kuolleen miehen asennon </strong>app-sovellus iPhonelle ja iPadille on julkaistu. Linkki löytyy tältä sivulta. </div>
+	  
+	  
+	   <div class="item">
+          <time datetime="2013-01-01"><span>8.5.</span></time>
+          <div class="text1">Android App</div>
+          <strong>Kuolleen miehen asennon </strong>Android-laitteissa toimiva app-sovellus on nyt ladattavissa tämän palstan yläpuolelta. </div>
+	  
+	  
+	   <div class="item">
+          <time datetime="2013-01-01"><span>16.4.</span></time>
+          <div class="text1">Videot</div>
+          Kaikki <strong>Kuolleen miehen asennon </strong>videot voi nyt katsoa Videot-sivulla tältä sivustolta poistumatta. Videot toimivat tietokoneissa, tableteissa ja  älypuhelimissa. </div>
+		  
+	  
+	   <div class="item">
+          <time datetime="2013-01-01"><span>15.4.</span></time>
+          <div class="text1">App Trailer</div>
+          Tämän sivun oikeassa laidassa olevasta videoruudusta on nyt katsottavissa <strong>Kuolleen miehen asento </strong>-romaanin app-sovellusta varten tehty uusi trailer-video.</div>
+	  
+	  
+	  <div class="item">
+          <time datetime="2013-01-01"><span>13.4.</span></time>
+          <div class="text1">Soundtrack</div>
+          Sivun alalaitaan on lisätty tietokoneissa ja tableteissa toimiva Soundcloud-soitin, josta voi kuunnella <strong>Kuolleen miehen asento </strong>-romaanin soundtrackin kappaleita sekä kirjaan liittyvän audioblogin viestejä.</div>
+	  
+	  
+	  
+	   <div class="item">
+          <time datetime="2013-01-01"><span>5.3.</span></time>
+          <div class="text1">Julkaisu</div>
+          <strong>Kuolleen miehen asento </strong>julkaistaan 26. päivä maaliskuuta.</div>
+	  
+	  
+	   <div class="item">
+          <time datetime="2013-01-01"><span>2.3.</span></time>
+          <div class="text1">Kansi</div>
+          <strong>Kuolleen miehen asento</strong>-sivuston Kirja-sivulla voi nyt katsella myös luonnoksia teoksen kannen eri vaiheista.</div>
+		  
+	  
+        <div class="item">
+          <time datetime="2013-01-01"><span>5.2.</span></time>
+          <div class="text1">Twitter ym.</div>
+          Tämän sivun oikean alalaidan kolme kuvaketta ovat kirjan Twitter-tili, romaaniin liittyvä Tumblr-tili sekä Vimeo-tili, josta löydät kaikki <strong>Kuolleen miehen asennon</strong> videot. </div>
+		  
+		  
+		  <div class="item">
+          <time datetime="2013-01-01"><span>26.1.</span></time>
+          <div class="text1">blogi</div>
+          <strong>Kuolleen miehen asento</strong> julkaistaan kevään aikana. Taustaa-valikosta löydät linkin romaanin kirjoittamista käsittelevään blogiini. </div>
+		  
+		  
+		   <div class="item">
+          <time datetime="2013-01-01"><span>19.1.</span></time>
+          <div class="text1">TEASER &amp; EASTER EGGS </div>
+          <strong>Kuolleen miehen asennon</strong> teaser-video on esillä tällä sivulla. Lisää kuvamateriaalia löydät ylälaidan Videot-alavalikosta. Sivustolla on myös piilotettua sisältöä, joka löytyy tarkastelemalla eri sivuja lähemmin. </div>
+		  
+		   <div class="item">
+          <time datetime="2013-01-01"><span>6.1.</span></time>
+          <div class="text1">AVAJAISET</div>
+          <strong>Kuolleen miehen asento</strong>-jännitysromaanin nettisivusto on virallisesti avattu. Tervetuloa tutustumaan itse kirjaan ja romaanihankkeen taustaan.        </div>
+		  
+  
+      </div>
+    </div>
+    <div class="grid_3">
+     
+        <a href="http://player.vimeo.com/video/92021924" class="various iframe img_inner"><span></span>
+        <img src="images/curtain.jpg" alt="">
+        </a>
+		
+		
+		
+		
+        <div class="text1">
+          <div align="center"><span>KATSO UUSI TEASER-VIDEO</span></div>
+        </div>
+    </div>
+  </div>
+</div>
+<!--==============================footer=================================-->
+<footer>   
+    
+    
+  <div class="container_12">
+      <div class="grid_12">
+      <div class="socials">
+       
+      
+      </div>
+      <div class="copy">
+        <a href="index.html" class="f_logo"></a>
+       <span>
+        &copy; 2013  | <a href="http://www.jaripeltola.com" target="_blank"_blank">JARI PELTOLA</a></span> <!--{%FOOTER_LINK} --></div>
+      
+      </div>
+    </div>  
+   
+  </footer>
+  
+</body>
+</html>

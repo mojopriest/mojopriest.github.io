@@ -1,0 +1,111 @@
+/*------audioPlayer-------*/
+#audioPlayer{
+    display: block;
+    width: 548px;
+    overflow: hidden;
+
+}
+#progressBar{
+    display: block;
+    float: left;
+    width: 388px;
+    height: 14px;
+    padding-top: 17px;
+}
+#timeBar{
+    float: left;
+    width: 100%;
+    height: 6px;
+    background: #122225;
+    cursor: pointer;
+}
+#timeLine{
+    width: 0%;
+    height: 6px;
+    overflow: visible !important;
+    position: relative;
+    background: #223e43;
+}
+
+#timeLine:after {
+	width: 12px;
+	height: 12px;
+	background-color: #233d42;
+	position: absolute;
+	display: block;
+	right: -14px;
+	top: -3px;
+	content: '';
+}
+#tracerLine{
+    position: relative; 
+    top:-4px;
+    width: 100%;
+    height: 6px;
+    background-color: #122225;
+    background: red;
+    opacity:0;
+}
+#volumeInd{
+	display: none;
+    position: relative;
+    top: 4px;
+    left: 13px; 
+    float: left;
+    width: 15px;
+    height: 7px;
+    cursor: pointer;
+}
+
+.controls a {
+	background-color: #15262a;
+	width: 43px;
+	height: 43px;
+	display: block;
+	float: left;
+	position: relative;
+}
+
+.controls a span {
+	position: absolute;
+	background: url(../images/playersprite.png) 0 0 no-repeat;
+	width: 12px;
+	height: 11px;
+	padding: 0;
+	display: block;
+	top: 50%;
+	margin-top: -7px;
+	left: 50%;
+	margin-left: -6px;
+}
+
+.controls a:hover {
+	background-color: #162c31;
+}
+
+.controls #prevSound:hover span {
+	background-position: 0 bottom;
+}
+
+.controls #playSound span {
+	width: 10px;
+	background-position: -12px bottom;
+	
+}
+
+.controls #playSound.stoped span {
+	background-position: -9px 0;
+}
+
+.controls #nextSound span {
+	background-position: right 0;
+}
+
+.controls #nextSound:hover span {
+	background-position: right bottom;
+}
+
+
+.controls {
+	float: right;
+}
