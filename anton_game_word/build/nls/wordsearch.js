@@ -27,8 +27,8 @@ define({
         'Ohje':
         'Ohje',
 		
-		'Xxxx.':
-        'Xxxx.',
+		'Etsi kaikki':
+        'Etsi kaikki',
 
         'Nimet ovat ruudukossa pysty- tai vaakasuorassa, vinottain tai takaperin.':
         'Nimet ovat ruudukossa pysty- tai vaakasuorassa, vinottain tai takaperin.',
@@ -38,7 +38,5 @@ define({
 
         'Onnea':
         'Onnea'
-    },
-
-    es: true
+    }
 });
