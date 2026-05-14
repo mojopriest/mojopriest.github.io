@@ -3,15 +3,20 @@ html, body {
     width: 100%;
     height: 100%;
     overflow: hidden;
-    /********************/
-    /* board background */
-    /********************/
     background: #333;
 }
 
+html, body, div, ul, li, canvas { margin: 0; padding: 0; }
 
+.hide { display: none; }
 
+.clear { clear: both; }
 
+/*== Jigsaw puzzle ==*/
+div#canvas-wrap {
+    width: 100%;
+    height: 100%;
+}
 
 canvas#canvas, canvas#buffer, canvas#image-preview {
     position: absolute;
@@ -32,35 +37,6 @@ canvas#image-preview.show {
 }
 
 /*== Options bar ==*/
-div#game-options ul {
-    margin: 0 auto;
-}
-
-/* 1. Target the container to make sure it has a solid background */
-div#game-options div.styled-select {
-    width: 100px;
-    height: 28px;
-    margin-right: 10px;
-    overflow: hidden;
-    background: #f3f3f3 url(../images/arrow.png) right no-repeat;
-    border: 1px solid #333;
-}
-
-/* 2. Fix the select element inside */
-div#game-options div.styled-select select {
-    outline: none;
-    background: #ffffff !important; /* Force a white background */
-    color: #000000 !important;      /* Force black text */
-    width: 130px;
-    padding: 2px 5px;
-    font-size: 16px;               /* 16px prevents auto-zoom on iPhone */
-    border: none;
-    height: 28px;
-    -webkit-appearance: menulist;  /* Restore standard UI for the list */
-    appearance: menulist;
-}
-
-
 div#game-options  {
     background: #fff;
     z-index: 500;
@@ -76,7 +52,11 @@ div#game-options  {
     box-shadow: 0 0 5px black;
 }
 
-div#game-options ul li { 
+div#game-options ul {
+    margin: 0 auto;
+}
+
+div#game-options ul li {
     float: left;
     list-style: none;
     line-height: 25px;
@@ -93,35 +73,36 @@ div#game-options ul li b {
     text-align: center;
 }
 
-/*== Select ==*/
+/*== Select Dropdown Fixes ==*/
+
+/* 1. The Container */
+div#game-options div.styled-select {
+    width: 110px;
+    height: 28px;
+    margin-right: 10px;
+    overflow: hidden;
+    background: #f3f3f3 url(../images/arrow.png) right no-repeat;
+    border: 1px solid #333;
+}
+
+/* 2. The Select Element - Fixes visibility in image.png and image_2.png */
 div#game-options div.styled-select select {
     outline: none;
-    background: transparent;
-    width: 125px;
-    padding: 5px;
-    font-size: 13px;
-	color: black;
+    background: #ffffff !important; 
+    color: #000000 !important;
+    width: 140px; 
+    padding: 2px 5px;
+    font-size: 16px; /* Prevents mobile zoom */
     border: none;
     height: 28px;
-    -webkit-appearance: none;
+    -webkit-appearance: menulist !important; /* Forces standard dropdown UI */
+    appearance: menulist !important;
 }
 
-/* 3. Explicitly fix the dropdown options */
+/* 3. The Options - Ensures list items are black text on white background */
 div#game-options div.styled-select select option {
-    background-color: #ffffff !important;
     color: #000000 !important;
-}
-
-html, body, div, ul, li, canvas { margin: 0; padding: 0; }
-
-.hide { display: none; }
-
-.clear { clear: both; }
-
-/*== Jigsaw puzzle ==*/
-div#canvas-wrap {
-    width: 100%;
-    height: 100%;
+    background-color: #ffffff !important;
 }
 
 /*== Share buttons ==*/
@@ -147,8 +128,8 @@ div#canvas-wrap {
     background: url(../images/plus.png)  10px 6px no-repeat #f3f3f3;
     padding-left: 30px;
 }
-/*== Modal window ==*/
 
+/*== Modal window ==*/
 div#congrat { text-align: center; }
 
 div#help {
@@ -160,7 +141,7 @@ div#help ul { margin-left: 10px; }
 /*== mobile ==*/
 @media screen and (max-width: 960px) {
     div#game-options { left: -30px; }
-    #clock { width: 50px; margin-left: }
+    #clock { width: 50px; }
     #SHOW_EDGE, #SHOW_MIDDLE, #SHOW_ALL { display: none; }
 }
 
@@ -169,3 +150,4 @@ div#help ul { margin-left: 10px; }
     #JIGSAW_SHUFFLE { margin-left: 15px; }
     #SHOW_PREVIEW { margin-right: 10px; }
 }
+
