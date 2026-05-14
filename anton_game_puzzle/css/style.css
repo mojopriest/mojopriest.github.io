@@ -9,18 +9,34 @@ html, body {
     background: #333;
 }
 
-/* Force the text color inside the dropdown to be black */
-.styled-select select {
-    color: #000000 !important;
-    background-color: #ffffff !important;
-    appearance: menulist; /* Ensures standard dropdown behavior */
-    -webkit-appearance: menulist; /* Support for Safari/Chrome */
+/* 1. Target the container to make sure it has a solid background */
+div#game-options div.styled-select {
+    width: 100px;
+    height: 28px;
+    margin-right: 10px;
+    overflow: hidden;
+    background: #f3f3f3 url(../images/arrow.png) right no-repeat;
+    border: 1px solid #333;
 }
 
-/* Specifically target the options to ensure visibility on mobile */
-.styled-select select option {
-    color: #000000 !important;
+/* 2. Fix the select element inside */
+div#game-options div.styled-select select {
+    outline: none;
+    background: #ffffff !important; /* Force a white background */
+    color: #000000 !important;      /* Force black text */
+    width: 130px;
+    padding: 2px 5px;
+    font-size: 16px;               /* 16px prevents auto-zoom on iPhone */
+    border: none;
+    height: 28px;
+    -webkit-appearance: menulist;  /* Restore standard UI for the list */
+    appearance: menulist;
+}
+
+/* 3. Explicitly fix the dropdown options */
+div#game-options div.styled-select select option {
     background-color: #ffffff !important;
+    color: #000000 !important;
 }
 
 html, body, div, ul, li, canvas { margin: 0; padding: 0; }
