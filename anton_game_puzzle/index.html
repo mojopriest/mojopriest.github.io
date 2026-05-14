@@ -100,18 +100,18 @@
 <script src="js/canvas-event.min.js"></script>
 <script src="js/canvas-puzzle.min.js"></script>
 <!--[if lt IE 9]><script type="text/javascript" src="js/canvas-puzzle.ie.min.js"></script><![endif]-->
+
 <script>
 ;(function() {
-var jsaw = new jigsaw.Jigsaw({
+    var jsaw = new jigsaw.Jigsaw({
         defaultImage: "images/puzzle/puzzle_03.jpg",
-        piecesNumberTmpl: "<?php echo _('%d Pieces'); ?>",
+        piecesNumberTmpl: "%d Pieces", // Removed the PHP tags
         defaultPieces: 24
     });
-	
-	
+
     if (jigsaw.GET["image"]) { jsaw.set_image(jigsaw.GET["image"]); }
-// this is just an example
 }());
 </script>
+
 </body>
 </html>
