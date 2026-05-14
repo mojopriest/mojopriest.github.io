@@ -9,6 +9,20 @@ html, body {
     background: #333;
 }
 
+/* Force the text color inside the dropdown to be black */
+.styled-select select {
+    color: #000000 !important;
+    background-color: #ffffff !important;
+    appearance: menulist; /* Ensures standard dropdown behavior */
+    -webkit-appearance: menulist; /* Support for Safari/Chrome */
+}
+
+/* Specifically target the options to ensure visibility on mobile */
+.styled-select select option {
+    color: #000000 !important;
+    background-color: #ffffff !important;
+}
+
 html, body, div, ul, li, canvas { margin: 0; padding: 0; }
 
 .hide { display: none; }
@@ -43,6 +57,22 @@ canvas#image-preview.show {
 div#game-options ul {
     margin: 0 auto;
 }
+
+/* Target the dropdown menu and its list items */
+select, option {
+    color: #000000 !important;       /* Forces text to be black */
+    background-color: #ffffff !important; /* Forces background to be white */
+}
+
+/* Optional: Improve mobile padding and appearance */
+select {
+    font-size: 16px; /* Prevents iOS from auto-zooming on focus */
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
 div#game-options  {
     background: #fff;
     z-index: 500;
@@ -82,6 +112,7 @@ div#game-options div.styled-select select {
     width: 125px;
     padding: 5px;
     font-size: 13px;
+	color: black;
     border: none;
     height: 28px;
     -webkit-appearance: none;
