@@ -1,0 +1,26 @@
+﻿# alphabet: abcdefghijklmnopqrstuvwxyzåäö
+# size: 15
+# showSolveButton: 1
+# showDescriptions: 0
+# totalWords: 10
+# initialScore: 1000
+# every: 10
+# deduct: 2
+# puzzleDescription: this+is+a+little+puzzle.+enjoy+it.
+# name: Default
+Anton:Anton | 
+Merkkari:Merkkari | 
+Roskis:Roskis | 
+Tessa:Tessa | 
+Joose:Joose | 
+Rumppi:Rumppi | 
+Sandi:Sandi | 
+Kuura:Kuura | 
+Timur:Timur | 
+Mursu:Mursu | 
+Jermu:Jermu | 
+Ganon:Ganon | 
+Luutnantti:Luutnantti | 
+Omppu:Omppu | 
+Kapu:Kapu | 
+Hansu:Hansu |
