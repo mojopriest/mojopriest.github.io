@@ -85,21 +85,32 @@ div#game-options div.styled-select {
     border: 1px solid #333;
 }
 
-/* 2. The Select Element - Fixes visibility in image.png and image_2.png */
+/*== Select ==*/
+div#game-options div.styled-select {
+    width: 120px; /* Increased slightly */
+    height: 28px;
+    margin-right: 10px;
+    overflow: hidden;
+    background: #f3f3f3 url(../images/arrow.png) 95% center no-repeat; /* Better arrow placement */
+    border: 1px solid #333;
+}
+
 div#game-options div.styled-select select {
     outline: none;
     background: #ffffff !important; 
-    color: #000000 !important;
-    width: 140px; 
+    color: #000000 !important;      /* Force black text */
+    width: 150px;                   /* Wider than container to hide default arrow */
     padding: 2px 5px;
-    font-size: 16px; /* Prevents mobile zoom */
+    font-size: 16px; 
     border: none;
     height: 28px;
-    -webkit-appearance: menulist !important; /* Forces standard dropdown UI */
-    appearance: menulist !important;
+    cursor: pointer;
+    -webkit-appearance: none;       /* Keeps your custom arrow look */
+    -moz-appearance: none;
+    appearance: none;
 }
 
-/* 3. The Options - Ensures list items are black text on white background */
+/* Ensure the OS-level dropdown picker is legible */
 div#game-options div.styled-select select option {
     color: #000000 !important;
     background-color: #ffffff !important;
