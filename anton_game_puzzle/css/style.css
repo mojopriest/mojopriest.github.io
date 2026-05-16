@@ -36,10 +36,8 @@ canvas#image-preview.show {
     z-index: 40;
 }
 
-
-
 /*== Options bar ==*/
-div#game-options  {
+div#game-options {
     background: #fff;
     z-index: 500;
     top: 0;
@@ -75,44 +73,31 @@ div#game-options ul li b {
     text-align: center;
 }
 
-/*== Select Dropdown Fixes ==*/
-
-/* 1. The Container */
+/*== Select Dropdown Custom Style ==*/
 div#game-options div.styled-select {
-    width: 110px;
+    width: 120px;
     height: 28px;
     margin-right: 10px;
     overflow: hidden;
-    background: #f3f3f3 url(../images/arrow.png) right no-repeat;
-    border: 1px solid #333;
-}
-
-/*== Select ==*/
-div#game-options div.styled-select {
-    width: 120px; /* Increased slightly */
-    height: 28px;
-    margin-right: 10px;
-    overflow: hidden;
-    background: #f3f3f3 url(../images/arrow.png) 95% center no-repeat; /* Better arrow placement */
+    background: #f3f3f3 url(../images/arrow.png) 95% center no-repeat;
     border: 1px solid #333;
 }
 
 div#game-options div.styled-select select {
     outline: none;
     background: #ffffff !important; 
-    color: #000000 !important;      /* Force black text */
-    width: 150px;                   /* Wider than container to hide default arrow */
+    color: #000000 !important;
+    width: 150px;
     padding: 2px 5px;
     font-size: 16px; 
     border: none;
     height: 28px;
     cursor: pointer;
-    -webkit-appearance: none;       /* Keeps your custom arrow look */
+    -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
 }
 
-/* Ensure the OS-level dropdown picker is legible */
 div#game-options div.styled-select select option {
     color: #000000 !important;
     background-color: #ffffff !important;
@@ -124,12 +109,12 @@ div#game-options div.styled-select select option {
     width: 32px;
     height: 32px;
     display: block;
-    cursor:pointer;
+    cursor: pointer;
 }
 
 /*== Crear puzzle ==*/
 #image-error { color: red; margin: 0 10px; display: none; }
-#dnd { display: none }
+#dnd { display: none; }
 
 #game-options #create {
     display: none;
@@ -138,7 +123,7 @@ div#game-options div.styled-select select option {
 }
 
 #game-options #create .add {
-    background: url(../images/plus.png)  10px 6px no-repeat #f3f3f3;
+    background: url(../images/plus.png) 10px 6px no-repeat #f3f3f3;
     padding-left: 30px;
 }
 
@@ -163,4 +148,3 @@ div#help ul { margin-left: 10px; }
     #JIGSAW_SHUFFLE { margin-left: 15px; }
     #SHOW_PREVIEW { margin-right: 10px; }
 }
-
