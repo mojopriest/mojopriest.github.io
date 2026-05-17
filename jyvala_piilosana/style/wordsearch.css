@@ -159,6 +159,12 @@ div#modal-window.help #puzzle-description {
             border-radius: 5px;
 }
 
-#help ul li:first-child {
+div.modal.help ul li:first-child,
+#puzzle-description + ul li:first-child {
     display: none !important;
+    opacity: 0 !important;
+    visibility: hidden !important;
+    height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
 }
