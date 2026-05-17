@@ -1,4 +1,5 @@
 define({
+    root: {
         'Pisteet %d':
         'Pisteet %d',
     
@@ -7,9 +8,6 @@ define({
         
         'Uudelleen':
         'Uudelleen',
-		
-		'Download':
-        'Download',
        
         'ratkaisu':
         'ratkaisu',
@@ -26,9 +24,6 @@ define({
         'Ohje':
         'Ohje',
 		
-		'Etsi kaikki piilosanat ruudukosta.':
-        'Etsi kaikki piilosanat ruudukosta.',
-		
 		'Nimet ovat ruudukossa pysty- tai vaakasuorassa vinottain tai takaperin.':
         'Sanat ovat ruudukossa pysty- tai vaakasuorassa vinottain tai takaperin.',
 		
@@ -39,5 +34,5 @@ define({
         'Onnea!'
 
        
-    
+    }
 });
