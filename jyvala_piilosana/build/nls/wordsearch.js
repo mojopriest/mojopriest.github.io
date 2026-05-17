@@ -8,10 +8,7 @@ define({
         
         'Uudelleen':
         'Uudelleen',
-        
-        'Download':
-        'Download',
-
+       
         'ratkaisu':
         'ratkaisu',
         
@@ -26,9 +23,6 @@ define({
 
         'Ohje':
         'Ohje',
-		
-		'Onnea!':
-        'Onnea!',
 		
 		'Nimet ovat ruudukossa pysty- tai vaakasuorassa vinottain tai takaperin.':
         'Sanat ovat ruudukossa pysty- tai vaakasuorassa vinottain tai takaperin.',
