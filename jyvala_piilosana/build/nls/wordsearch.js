@@ -30,15 +30,11 @@ define({
 		'Etsi kaikki':
         'Etsi kaikki',
 
-        'Sanat ovat ruudukossa pysty- tai vaakasuorassa, vinottain tai takaperin.':
-        'Sanat ovat ruudukossa pysty- tai vaakasuorassa, vinottain tai takaperin.',
-		
-		 'Mitä nopeammin löydät kaikki sanat, sitä enemmän saat pisteitä.':
-         'Mitä nopeammin löydät kaikki sanat, sitä enemmän saat pisteitä.',
+        'Nimet ovat ruudukossa pysty- tai vaakasuorassa, vinottain tai takaperin.':
+        'Nimet ovat ruudukossa pysty- tai vaakasuorassa, vinottain tai takaperin.',
 
-
-        'Jos jokin sana tuntuu liian vaikealta, paina ratkaisu-nappia.':
-        'Jos jokin sana tuntuu liian vaikealta, paina ratkaisu-nappia.',
+        'Jos jokin nimi tuntuu liian vaikealta, paina ratkaisu-nappia.':
+        'Jos jokin nimi tuntuu liian vaikealta, paina ratkaisu-nappia.',
 
         'Onnea!':
         'Onnea!'
