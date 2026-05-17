@@ -1,5 +1,4 @@
 define({
-	
         'Pisteet %d':
         'Pisteet %d',
     
