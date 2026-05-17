@@ -31,8 +31,8 @@ define({
         'Sanat ovat ruudukossa pysty- tai vaakasuorassa, vinottain tai takaperin.':
         'Sanat ovat ruudukossa pysty- tai vaakasuorassa, vinottain tai takaperin.',
 
-        'Jos jokin nimi tuntuu liian vaikealta, paina ratkaisu-nappia.':
-        'Jos jokin nimi tuntuu liian vaikealta, paina ratkaisu-nappia.',
+        'Jos jokin sana tuntuu liian vaikealta, paina ratkaisu-nappia.':
+        'Jos jokin sana tuntuu liian vaikealta, paina ratkaisu-nappia.',
 
         'Onnea!':
         'Onnea!'
