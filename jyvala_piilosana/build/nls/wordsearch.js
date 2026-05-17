@@ -8,9 +8,6 @@ define({
         
         'Uudelleen':
         'Uudelleen',
-        
-        'Download':
-        'Download',
 
         'ratkaisu':
         'ratkaisu',
@@ -32,6 +29,9 @@ define({
 
         'Nimet ovat ruudukossa pysty- tai vaakasuorassa, vinottain tai takaperin.':
         'Nimet ovat ruudukossa pysty- tai vaakasuorassa, vinottain tai takaperin.',
+		
+		 'Mitä nopeammin löydät kaikki sanat, sitä enemmän saat pisteitä.':
+         'Mitä nopeammin löydät kaikki sanat, sitä enemmän saat pisteitä.',
 
         'Jos jokin nimi tuntuu liian vaikealta, paina ratkaisu-nappia.':
         'Jos jokin nimi tuntuu liian vaikealta, paina ratkaisu-nappia.',
