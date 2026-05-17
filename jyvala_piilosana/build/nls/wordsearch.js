@@ -28,7 +28,7 @@ define({
         'Ohje',
 		
 		'Find and mark all the words inside the box before your points fall to zero.':
-        'Etsi kaikki ruudukon piilosanat mahdollisimman nopeasti.',
+   	    'Find and mark all the words inside the box before your points fall to zero.',
 
         'The words may be horizontally, vertically, diagonally and even backwards.':
         'Nimet ovat ruudukossa pysty- tai vaakasuorassa, vinottain tai takaperin.',
