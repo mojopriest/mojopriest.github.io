@@ -37,6 +37,6 @@ define({
         'Jos jokin sana tuntuu liian vaikealta, paina ratkaisu-nappia.',
 
         'Onnea!':
-        'Onnea!',
-    }
+        'Onnea!'
+    },
 });
