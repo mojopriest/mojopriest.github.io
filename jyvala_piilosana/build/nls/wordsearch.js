@@ -27,9 +27,8 @@ define({
         'Ohje':
         'Ohje',
 		
-		'Nimet ovat ruudukossa pysty- tai vaakasuorassa, vinottain tai takaperin.':
-        'Nimet ovat ruudukossa pysty- tai vaakasuorassa, vinottain tai takaperin.',
-
+		'Find and mark all the words inside the box before your points fall to zero.':
+        'X.',
 
         'Nimet ovat ruudukossa pysty- tai vaakasuorassa, vinottain tai takaperin.':
         'Nimet ovat ruudukossa pysty- tai vaakasuorassa, vinottain tai takaperin.',
