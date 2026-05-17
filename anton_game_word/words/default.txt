@@ -6,7 +6,7 @@
 # initialScore: 1000
 # every: 10
 # deduct: 2
-# puzzleDescription: piilosana.
+# puzzleDescription: Piilosana
 # name: Default
 Anton:Anton | 
 Merkkari:Merkkari | 

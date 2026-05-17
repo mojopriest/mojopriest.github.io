@@ -6,7 +6,7 @@
 # initialScore: 1000
 # every: 10
 # deduct: 5
-# puzzleDescription: jyvälän+piilosana.
+# puzzleDescription: Jyvälän+Piilosana
 # name: Default
 Jyvälä:Jyvälä | 
 Setlementti:Setlementti | 
