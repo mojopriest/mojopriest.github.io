@@ -6,7 +6,7 @@
 # initialScore: 1000
 # every: 10
 # deduct: 2
-# puzzleDescription: this+is+a+little+puzzle.+enjoy+it.
+# puzzleDescription: piilosana.
 # name: Default
 Anton:Anton | 
 Merkkari:Merkkari | 
