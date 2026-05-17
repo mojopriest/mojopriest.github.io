@@ -157,18 +157,12 @@ div#modal-window.help #puzzle-description {
     -webkit-border-radius: 5px;
        -moz-border-radius: 5px;
             border-radius: 5px;
-}
-
-#modal-window ul li:empty,
-.modal-window-msg ul li:empty,
-#modal-window ul li:first-child {
+#help ul li:nth-child(1),
+div.modal.help ul li:nth-child(1),
+p#puzzle-description + ul li:nth-child(1) {
     display: none !important;
-    opacity: 0 !important;
     visibility: hidden !important;
     height: 0 !important;
     margin: 0 !important;
     padding: 0 !important;
-    line-height: 0 !important;
-    list-style: none !important;
-    list-style-type: none !important;
 }
