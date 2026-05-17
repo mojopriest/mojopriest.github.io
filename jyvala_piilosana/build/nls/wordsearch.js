@@ -3,8 +3,8 @@ define({
         'Pisteet %d':
         'Pisteet %d',
     
-        'Ohje':
-        'Ohje',
+        'Ohjeet':
+        'Ohjeet',
         
         'Uudelleen':
         'Uudelleen',
