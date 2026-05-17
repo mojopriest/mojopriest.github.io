@@ -30,7 +30,7 @@ define({
 		'Etsi kaikki':
         'Etsi kaikki',
 
-        'Nimet ovat ruudukossa pysty- tai vaakasuorassa, vinottain tai takaperin.':
+        'Find and mark all the words inside the box before your points fall to zero.':
         'Nimet ovat ruudukossa pysty- tai vaakasuorassa, vinottain tai takaperin.',
 
         'Jos jokin nimi tuntuu liian vaikealta, paina ratkaisu-nappia.':
