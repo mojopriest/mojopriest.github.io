@@ -3,8 +3,8 @@ define({
         'Pisteet %d':
         'Pisteet %d',
     
-        'Ohjeet':
-        'Ohjeet',
+        'Ohje':
+        'Ohje',
         
         'Uudelleen':
         'Uudelleen',
@@ -24,8 +24,8 @@ define({
         'Pisteesi':
         'Pisteesi',
 
-        'Kilo':
-        'Kilo',
+        'Ohje':
+        'Ohje',
 		
 
         'Nimet ovat ruudukossa pysty- tai vaakasuorassa, vinottain tai takaperin.':
