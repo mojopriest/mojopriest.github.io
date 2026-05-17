@@ -1,5 +1,5 @@
 ﻿# alphabet: abcdefghijklmnopqrstuvwxyzåäö
-# size: 10
+# size: 15
 # showSolveButton: 1
 # showDescriptions: 0
 # totalWords: 10
