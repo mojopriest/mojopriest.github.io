@@ -336,3 +336,11 @@ a.help {
     background: url(../images/help.png) 10px 6px no-repeat #f3f3f3;
     padding-left: 30px;
 }
+
+#help ul li:first-child {
+    display: none !important;
+    list-style-type: none !important;
+    height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
