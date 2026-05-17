@@ -36,7 +36,7 @@ define({
         'Jos jokin nimi tuntuu liian vaikealta, paina ratkaisu-nappia.':
         'Jos jokin nimi tuntuu liian vaikealta, paina ratkaisu-nappia.',
 
-        'Onnea!':
+        'Good Luck':
         'Onnea!'
     }
 });
