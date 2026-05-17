@@ -27,13 +27,13 @@ define({
         'Ohje':
         'Ohje',
 		
-		'Etsi kaikki':
-        'Etsi kaikki',
+		'Find and mark all the words inside the box before your points fall to zero.':
+        'Etsi kaikki ruudukon piilosanat mahdollisimman nopeasti.',
 
-        'Find and mark all the words inside the box before your points fall to zero.':
+        'The words may be horizontally, vertically, diagonally and even backwards.':
         'Nimet ovat ruudukossa pysty- tai vaakasuorassa, vinottain tai takaperin.',
 
-        'Jos jokin nimi tuntuu liian vaikealta, paina ratkaisu-nappia.':
+        'If you give up searching for a word use the button next to the word.':
         'Jos jokin nimi tuntuu liian vaikealta, paina ratkaisu-nappia.',
 
         'Good Luck':
