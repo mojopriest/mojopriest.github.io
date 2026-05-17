@@ -6,7 +6,7 @@
 # initialScore: 1000
 # every: 10
 # deduct: 5
-# puzzleDescription: Etsi+piilosanat+ruudukosta.
+# puzzleDescription: this+is+a+little+puzzle.+enjoy+it.
 # name: Default
 Jyvälä:Jyvälä | 
 Setlementti:Setlementti | 
