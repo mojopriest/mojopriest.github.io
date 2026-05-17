@@ -1,42 +1,33 @@
 define({
     root: {
-        'Pisteet %d':
+        'You have %d points':
         'Pisteet %d',
     
-        'Ohje':
+        'Help':
         'Ohje',
         
-        'Uudelleen':
+        'Restart':
         'Uudelleen',
 
-        'ratkaisu':
+        'solve':
         'ratkaisu',
-        
-        'Sulje':
-        'Sulje',
 
-        'Hienoa!':
-        'Hienoa!',
-
-        'Pisteesi':
+        'Your score is':
         'Pisteesi',
 
-        'Ohje':
+        'How to play!':
         'Ohje',
-		
-		'Etsi kaikki':
-        'Etsi kaikki',
 
-        'Nimet ovat ruudukossa pysty- tai vaakasuorassa, vinottain tai takaperin.':
+        'Find and mark all the words inside the box before your points fall to zero.':
         'Nimet ovat ruudukossa pysty- tai vaakasuorassa, vinottain tai takaperin.',
 		
-		 'Mitä nopeammin löydät kaikki sanat, sitä enemmän saat pisteitä.':
+		 'The words may be horizontally, vertically, diagonally and even backwards.':
          'Mitä nopeammin löydät kaikki sanat, sitä enemmän saat pisteitä.',
 
-        'Jos jokin nimi tuntuu liian vaikealta, paina ratkaisu-nappia.':
+        'If you give up searching for a word use the button next to the word.':
         'Jos jokin nimi tuntuu liian vaikealta, paina ratkaisu-nappia.',
 
-        'Onnea!':
+        'Good Luck':
         'Onnea!'
     }
 });
