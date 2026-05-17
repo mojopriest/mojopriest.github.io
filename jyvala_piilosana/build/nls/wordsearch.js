@@ -8,6 +8,9 @@ define({
         
         'Uudelleen':
         'Uudelleen',
+		
+		 'Download':
+   		 'Download',
        
         'ratkaisu':
         'ratkaisu',
