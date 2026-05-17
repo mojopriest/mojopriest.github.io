@@ -147,22 +147,3 @@ div#modal-window.help li {
 
 div#modal-window.help #puzzle-description.hide { display: none; }
 
-div#modal-window.help #puzzle-description {
-    background: #efefef;
-    color: #666666;
-    font-size: 14px;
-    font-weight: bold;
-    text-align: justify;
-    padding: 4px;
-    -webkit-border-radius: 5px;
-       -moz-border-radius: 5px;
-            border-radius: 5px;
-#help ul li:nth-child(1),
-div.modal.help ul li:nth-child(1),
-p#puzzle-description + ul li:nth-child(1) {
-    display: none !important;
-    visibility: hidden !important;
-    height: 0 !important;
-    margin: 0 !important;
-    padding: 0 !important;
-}
