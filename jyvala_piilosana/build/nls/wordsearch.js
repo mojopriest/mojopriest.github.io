@@ -27,8 +27,9 @@ define({
         'Ohje':
         'Ohje',
 		
-		'Etsi kaikki':
-        'Etsi kaikki',
+		'Nimet ovat ruudukossa pysty- tai vaakasuorassa, vinottain tai takaperin.':
+        'Nimet ovat ruudukossa pysty- tai vaakasuorassa, vinottain tai takaperin.',
+
 
         'Nimet ovat ruudukossa pysty- tai vaakasuorassa, vinottain tai takaperin.':
         'Nimet ovat ruudukossa pysty- tai vaakasuorassa, vinottain tai takaperin.',
