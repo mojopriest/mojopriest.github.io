@@ -1,4 +1,5 @@
 define({
+	
         'Pisteet %d':
         'Pisteet %d',
     
@@ -38,4 +39,3 @@ define({
         'Onnea!':
         'Onnea!'
 });
-
