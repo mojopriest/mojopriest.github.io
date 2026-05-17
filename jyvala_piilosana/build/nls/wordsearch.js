@@ -6,8 +6,8 @@ define({
         'Ohje':
         'Ohje',
         
-        'Uudelleen':
-        'Uudelleen',
+        'Uusi peli':
+        'Uusi peli',
         
         'Download':
         'Download',
